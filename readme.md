@@ -1,13 +1,12 @@
-## Laravel 4.x
+# Laravel 4 Eloquent one-to-many relations error
 
-### A Framework For Web Artisans
+It works, so here is the code that I use and no problem happened to me.
 
-[Official Documentation](http://four.laravel.com) (Under Active Development)
+## Before
+* Make sure to create database: l4stack or configure the database in app/config/database.php. The user is: root, and password:123
 
-### Contributing To Laravel
-
-**All issues and pull requests should be filed on the [laravel/framework](http://github.com/laravel/framework) repository.**
-
-### License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+## Run
+* composer install
+* php artisan migrate:refresh --seed ( migration and seeds )
+* php artisan serve
+* open localhost:8000 in your browser
